@@ -1,3 +1,7 @@
 {
-  "name": "streaming-app"
+  "name": "streaming-app",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  }
 }

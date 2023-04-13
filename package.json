@@ -1,6 +1,11 @@
 {
   "name": "react-toy",
   "private": true,
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "streaming-app" : "yarn workspace streaming-app",
+    "core" : "yarn workspace core"
+  },
   "workspaces": [
     "packages/*"
   ],
